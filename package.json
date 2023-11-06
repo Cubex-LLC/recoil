@@ -1,0 +1,90 @@
+{
+  "name": "cubex_recoil",
+  "version": "0.5.50",
+  "description": "Powerful react powered front-end framework.",
+  "author": "Joseph Isaac <josephisaac89@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zill4/cubex_recoil.git"
+  },
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "module": "dist/src/index.js",
+  "directories": {
+    "lib": "src/"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "prepublishOnly": "rimraf ./dist && tsc --declaration",
+    "tsc": "tsc --declaration",
+    "build": "webpack --config webpack.config.js --progress && tsc --declaration",
+    "watch": "webpack --config webpack.config.js --watch --progress",
+    "watch-link": "tsc --watch --declaration"
+  },
+  "dependencies": {
+    "@types/react-router": "^5.1.20",
+    "classnames": "^2.3.2",
+    "intersection-observer": "^0.12.2",
+    "react-intersection-observer": "9.5.2",
+    "react-router-dom": "^6.16.0"
+  },
+  "peerDependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.0",
+    "core-js": "^3.32.2",
+    "css-loader": "^6.8.1",
+    "eslint-plugin-react": "^7.33.2",
+    "history": "^5.3.0",
+    "json-loader": "0.5.7",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
+    "mobx": "5.0.0",
+    "mobx-react": "5.3.1",
+    "mobx-react-devtools": "6.0.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.0",
+    "react-router": "^6.16.0",
+    "rimraf": "^5.0.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react ui kit",
+    "react ui framework",
+    "react ui library",
+    "ui kit",
+    "ui framework",
+    "ui library",
+    "react uikit",
+    "react button",
+    "react input",
+    "react grid",
+    "react table",
+    "react components",
+    "react component library",
+    "react component kit",
+    "react dropdown",
+    "react mobile",
+    "react ui",
+    "react ui components",
+    "recoil",
+    "facebook",
+    "reactjs",
+    "typescript ui",
+    "typescript ui kit",
+    "typescript framework",
+    "react-component"
+  ]
+}
