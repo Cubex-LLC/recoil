@@ -8,5 +8,5 @@ export default class Tags extends React.Component<ITagsProps, any> {
     constructor(props: any);
     componentWillReceiveProps(nextProps: any): void;
     onRemove(item: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

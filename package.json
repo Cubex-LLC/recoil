@@ -1,11 +1,11 @@
 {
-  "name": "cubex_recoil",
+  "name": "recoil",
   "version": "0.5.50",
   "description": "Powerful react powered front-end framework.",
   "author": "Joseph Isaac <josephisaac89@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zill4/cubex_recoil.git"
+    "url": "https://github.com/Cubex-LLC/recoil.git"
   },
   "license": "MIT",
   "main": "dist/src/index.js",

@@ -15,5 +15,5 @@ export default class Shrink extends React.Component<IShrinkProps, {}> {
         scale: number;
         position: string;
     };
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -17,5 +17,5 @@ export default class Emerge extends React.Component<IEmergeProps, {}> {
         delay: number;
         overflow: boolean;
     };
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -17,5 +17,5 @@ export default class Recoil extends React.Component<IRecoilProps, any> {
     detectMobile(): void;
     componentWillReceiveProps(nextProps: IRecoilProps): void;
     isMobile(mobile: boolean): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -9,6 +9,6 @@ export interface IOpenProps {
 }
 declare class Open extends React.Component<IOpenProps, any> {
     refOpen: any;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
 export default Open;

@@ -25,5 +25,5 @@ export default class Toggle extends React.Component<IToggleProps, IToggleState> 
     componentWillReceiveProps(nextProps: IToggleProps): void;
     onChange(event: React.FormEvent<any>): void;
     changeSelected(item: Array<any>): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

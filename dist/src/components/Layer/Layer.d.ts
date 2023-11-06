@@ -63,7 +63,7 @@ export declare class Layer extends React.Component<ILayerProps, any> {
     getScrollLeft(): number;
     setScrollLeft(position: number): void;
     getOffsetLeft(element: HTMLElement): number;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
 declare const _default: {
     new (props: any): {
@@ -74,8 +74,10 @@ declare const _default: {
         render(): JSX.Element;
         context: any;
         setState<K extends string | number | symbol>(state: any, callback?: () => void): void;
-        forceUpdate(callBack?: () => void): void;
-        readonly props: Readonly<any>;
+        forceUpdate(callback?: () => void): void;
+        readonly props: Readonly<any> & Readonly<{
+            children?: React.ReactNode;
+        }>;
         state: Readonly<any>;
         refs: {
             [key: string]: React.ReactInstance;

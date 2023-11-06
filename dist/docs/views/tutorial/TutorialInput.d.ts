@@ -4,5 +4,5 @@ export default class TutorialInput extends React.Component<any, any> {
     toggleShowProps(): void;
     toggleShowVideo(): void;
     setonChange(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

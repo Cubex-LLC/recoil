@@ -5,5 +5,5 @@ export default class TutorialWizard extends React.Component<any, any> {
     toggleShowVideo(): void;
     gotoSlideIndex(n: any): void;
     gotoSlideIndex2(n: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

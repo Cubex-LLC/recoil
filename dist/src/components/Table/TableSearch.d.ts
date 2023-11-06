@@ -15,5 +15,5 @@ export default class TableSearch extends React.Component<any, any> {
     componentDidMount(): void;
     componentWillReceiveProps(nextProps: any): void;
     updateSearch(term: string): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

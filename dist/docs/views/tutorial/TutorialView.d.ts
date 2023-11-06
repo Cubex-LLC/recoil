@@ -16,6 +16,6 @@ export default class TutorialView extends React.Component<ITutorialViewProps, an
     toggleShowVideo(): void;
     openModal(): void;
     closeModal(): void;
-    detailTemplate(item: any): JSX.Element;
-    render(): JSX.Element;
+    detailTemplate(item: any): React.JSX.Element;
+    render(): React.JSX.Element;
 }

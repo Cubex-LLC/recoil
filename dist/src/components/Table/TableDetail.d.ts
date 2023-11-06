@@ -11,5 +11,5 @@ export interface ITableColumnDetailProps {
 }
 export default class TableDetail extends React.Component<ITableColumnDetailProps, any> {
     shouldComponentUpdate(): boolean;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

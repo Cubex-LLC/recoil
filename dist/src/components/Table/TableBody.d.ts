@@ -26,5 +26,5 @@ export interface TableBodyProps {
     disableSelectedElements?: Array<any>;
 }
 export default class TableBody extends React.Component<TableBodyProps, any> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

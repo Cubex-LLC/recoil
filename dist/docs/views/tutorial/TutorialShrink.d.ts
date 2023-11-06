@@ -4,5 +4,5 @@ export default class TutorialShrink extends React.Component<any, any> {
     toggleShowProps(): void;
     toggleShowVideo(): void;
     toggleShrink(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -15,5 +15,5 @@ export default class Checkbox extends React.Component<ICheckboxProps, ICheckboxS
     notchecked(): void;
     checked(): void;
     componentWillReceiveProps(nextProps: ICheckboxProps): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

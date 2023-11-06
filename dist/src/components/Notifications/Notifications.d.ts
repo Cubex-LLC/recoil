@@ -18,5 +18,5 @@ export interface INotificationsProps {
 export interface INotificationsState {
 }
 export default class Notifications extends React.Component<INotificationsProps, INotificationsState> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

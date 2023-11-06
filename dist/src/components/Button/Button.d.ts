@@ -48,5 +48,5 @@ export default class Button extends React.Component<IButtonProps, IButtonState> 
     onClick(event: React.MouseEvent<MouseEvent>): void;
     progressiveClick(): void;
     startShortcutListener(e: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

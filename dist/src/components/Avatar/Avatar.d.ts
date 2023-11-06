@@ -3,5 +3,5 @@ export interface IAvatarProps {
     src?: 'string';
 }
 export default class Avatar extends React.Component<IAvatarProps, {}> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

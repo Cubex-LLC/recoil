@@ -25,5 +25,5 @@ export interface ITableColumnProps {
 export default class TableRow extends React.Component<ITableColumnProps, any> {
     toggleSelectedElements(element: Array<any>, index: string | number): void;
     onRowSelect(element: Array<any>, index: string | number): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

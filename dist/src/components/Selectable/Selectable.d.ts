@@ -10,6 +10,6 @@ declare class Selectable extends React.Component<ISelectableProps, {}> {
     static defaultProps: {
         type: string;
     };
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
 export default Selectable;

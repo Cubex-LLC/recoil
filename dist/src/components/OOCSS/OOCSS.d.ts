@@ -18,8 +18,10 @@ export declare const OOCSS: () => (Component: any) => {
         render(): JSX.Element;
         context: any;
         setState<K extends string | number | symbol>(state: any, callback?: () => void): void;
-        forceUpdate(callBack?: () => void): void;
-        readonly props: Readonly<any>;
+        forceUpdate(callback?: () => void): void;
+        readonly props: Readonly<any> & Readonly<{
+            children?: React.ReactNode;
+        }>;
         state: Readonly<any>;
         refs: {
             [key: string]: React.ReactInstance;

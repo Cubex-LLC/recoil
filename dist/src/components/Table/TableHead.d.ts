@@ -22,5 +22,5 @@ export interface ITableHeadProps {
 export default class TableHead extends React.Component<ITableHeadProps, any> {
     constructor(props: ITableHeadProps);
     toggleSorting(dataSource: Array<any>, columnName: string): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

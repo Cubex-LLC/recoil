@@ -46,7 +46,9 @@ export default class Input extends React.Component<IInputProps, IInputState> {
         type: string;
     };
     constructor(props: IInputProps);
-    setCurrentValue(props?: Readonly<React.PropsWithChildren<IInputProps>>): string | string[];
+    setCurrentValue(props?: Readonly<IInputProps> & Readonly<{
+        children?: React.ReactNode;
+    }>): string | string[];
     componentWillReceiveProps(nextProps: IInputProps): void;
     componentDidMount(): void;
     componentWillUnmount(): void;
@@ -60,5 +62,5 @@ export default class Input extends React.Component<IInputProps, IInputState> {
     setValue(value: string, event: React.FormEvent<any>): void;
     disableKeys(key: string, event: any): boolean;
     onKeyDown(a: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

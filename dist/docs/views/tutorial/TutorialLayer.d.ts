@@ -7,5 +7,5 @@ export default class TutorialLayer extends React.Component<any, any> {
     toggleContentClosed(): void;
     toggleSidebar(): void;
     toggleNotify(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

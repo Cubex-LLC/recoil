@@ -41,7 +41,7 @@ export default class Tree extends React.Component<ITreeProps, ITreeState> {
     updateRoots(): void;
     openSelectedElements(selectedElements: Array<any>): void;
     openedElements(selectedElements: Array<any>): void;
-    renderChildren(childNode: any): JSX.Element;
-    renderChildrenWithoutParent(childNode: any): JSX.Element;
-    render(): JSX.Element;
+    renderChildren(childNode: any): React.JSX.Element;
+    renderChildrenWithoutParent(childNode: any): React.JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -8,5 +8,5 @@ export default class App extends React.Component<any, any> {
     toggleModal(): void;
     toggleMobile(isMobile: any): void;
     gotoSlideIndex(item: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

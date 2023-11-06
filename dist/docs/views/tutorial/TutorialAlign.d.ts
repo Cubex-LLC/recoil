@@ -4,5 +4,5 @@ export default class TutorialAlign extends React.Component<any, any> {
     toggleShowProps(): void;
     setColumns(columns: any): void;
     toggleShowVideo(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

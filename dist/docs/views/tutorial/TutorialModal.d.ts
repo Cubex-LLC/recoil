@@ -7,5 +7,5 @@ export default class TutorialModal extends React.Component<any, any> {
     openModalFullScreen(): void;
     closeModalFullScreen(): void;
     closeModal(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

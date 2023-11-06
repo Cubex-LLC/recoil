@@ -19,5 +19,5 @@ export interface IToolbarProps extends IRecoil {
     form?: boolean;
 }
 export default class Toolbar extends React.Component<IToolbarProps, {}> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

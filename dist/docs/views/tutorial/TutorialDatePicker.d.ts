@@ -5,5 +5,5 @@ export default class TutorialDatePicker extends React.Component<any, any> {
     toggleShowVideo(): void;
     selectFrom(day: any): void;
     selectTo(day: any): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

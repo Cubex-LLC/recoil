@@ -3,5 +3,5 @@ export default class TutorialCard extends React.Component<any, any> {
     constructor(props: any);
     toggleShowProps(): void;
     toggleShowVideo(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

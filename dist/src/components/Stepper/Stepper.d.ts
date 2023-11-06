@@ -8,6 +8,6 @@ export interface IStepperProps {
 }
 declare class Stepper extends React.Component<IStepperProps, any> {
     refOpen: any;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
 export default Stepper;

@@ -4,5 +4,5 @@ export default class TutorialOpen extends React.Component<any, any> {
     toggleShowProps(): void;
     toggleShowVideo(): void;
     toggleOpenIsOpen(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

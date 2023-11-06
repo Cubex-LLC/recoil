@@ -26,5 +26,5 @@ export default class Pager extends React.Component<IPagerProps, {}> {
     onSelected(pageSizeAmount: number): void;
     lastPage(numberOfPages: React.MouseEvent<any>): void;
     renderPager(page: number, pageCount: number, pagerSize: number): any[];
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

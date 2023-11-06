@@ -4,5 +4,5 @@ export default class TutorialSlideIn extends React.Component<any, any> {
     toggleShowProps(): void;
     toggleShowVideo(): void;
     toggleSlideIn(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

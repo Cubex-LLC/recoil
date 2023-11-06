@@ -20,5 +20,5 @@ export default class DatePicker extends React.Component<IDatePickerProps, any> {
     toggleOpen(): void;
     toggleClose(): void;
     onOpen(boolean: any): any;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

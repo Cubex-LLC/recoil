@@ -24,5 +24,5 @@ export default class SlideIn extends React.Component<ISlideInProps, any> {
     slideIn(): void;
     afterOpen(): void;
     close(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

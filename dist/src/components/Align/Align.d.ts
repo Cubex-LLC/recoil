@@ -25,6 +25,6 @@ export default class Align extends React.Component<IAlignProps, IAlignState> {
     componentWillReceiveProps(nextProps: IAlignProps): void;
     alignUpdate(widthArray: Array<number>, singleColumnLength: number, maxColumnsLength: number): void;
     alignColumns(columns: Array<number>): void;
-    alignChildren(element: JSX.Element, key: string): JSX.Element;
-    render(): JSX.Element;
+    alignChildren(element: JSX.Element, key: string): React.JSX.Element;
+    render(): React.JSX.Element;
 }

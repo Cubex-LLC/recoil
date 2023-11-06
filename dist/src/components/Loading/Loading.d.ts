@@ -14,5 +14,5 @@ export interface ILoadingState {
 export default class Loading extends React.Component<ILoadingProps, ILoadingState> {
     state: ILoadingState;
     constructor(props: ILoadingProps);
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -5,5 +5,5 @@ export interface P {
 export interface S {
 }
 export default class Dashboard extends React.Component<P, S> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

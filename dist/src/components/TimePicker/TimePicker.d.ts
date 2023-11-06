@@ -9,5 +9,5 @@ export default class TimePicker extends React.Component<IDatePickerProps, any> {
     constructor(props: IDatePickerProps);
     onSelect: (time: any) => void;
     onChange: (value: any) => void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

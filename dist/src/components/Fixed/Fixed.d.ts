@@ -10,5 +10,5 @@ export default class Fixed extends React.Component<IFixedProps, any> {
     constructor(props: IFixedProps);
     componentDidMount(): void;
     handleShortcuts(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

@@ -12,5 +12,5 @@ export interface ITransformProps {
     flex?: boolean;
 }
 export default class Transform extends React.Component<ITransformProps, {}> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

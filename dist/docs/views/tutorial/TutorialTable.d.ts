@@ -3,6 +3,6 @@ export default class TutorialTable extends React.Component<any, any> {
     constructor(props: any);
     toggleShowProps(): void;
     toggleShowVideo(): void;
-    detailTemplate(element: any): JSX.Element;
-    render(): JSX.Element;
+    detailTemplate(element: any): React.JSX.Element;
+    render(): React.JSX.Element;
 }

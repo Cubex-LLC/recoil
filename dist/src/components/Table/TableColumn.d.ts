@@ -14,5 +14,5 @@ export default class TableColumn extends React.Component<ITableDataProps, ITable
     constructor(props: ITableDataProps);
     componentDidMount(): void;
     renderType(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

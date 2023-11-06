@@ -8,5 +8,5 @@ export interface ITableColumnSelectableProps {
     selectedKey?: string;
 }
 export default class TableSelectable extends React.Component<ITableColumnSelectableProps, any> {
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }

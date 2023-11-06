@@ -41,5 +41,5 @@ export default class Modal extends React.Component<IModalProps, IModalState> {
     close(): void;
     toggleFullScreen(): void;
     closeModal(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
